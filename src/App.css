@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"); /* Font */
+
+body {
+  font-family: "Roboto", sans-serif; /* Font */
+}
+
+.tesodev-image {
+  /* Anasayfadaki logo */
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 20%;
+}
+.tesodev-image-all {
+  /* Detaylı arama sayfasındaki logo */
+  display: flex;
+  position: relative;
+  width: 8%;
+  margin-right: 10px;
+}
+
+.paginationBttns {
+  /* sayfalandırma */
+  width: 60%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  /* sayfalandırma a */
+  padding: 5px;
+  margin: 10px;
+  border-radius: 3px;
+  border: 1px solid #5b5b69;
+  color: #1d1d1f;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  /* sayfalandırma hover */
+  color: white;
+  background-color: #1f203b;
+}
+
+.paginationActive a {
+  /* sayfalandırma aktif */
+  color: white;
+  background-color: #2a2a30;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: grey;
+}
+
+.toAllList {
+  text-decoration: none;
+  color: blue;
+}
+.toAllList2 {
+  text-decoration: none;
+  color: blue;
+  margin-right: 100px;
+  position: relative;
+  display: flex;
+}
